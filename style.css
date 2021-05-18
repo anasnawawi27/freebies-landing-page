@@ -27,7 +27,7 @@ section.header-page {
   color: rgb(241, 241, 241);
 }
 
-.header-page a:hover {
+.header-page a:hover, .plan-button:hover{
   box-shadow: 0 10px 30px rgba(245, 56, 56, 0.4);
   color: white;
 }
@@ -98,6 +98,14 @@ div.plan-price{
         font-size: 35px;
         line-height: 70px;
       }
+
+    .logo-brand .col img{
+      margin-bottom: 10px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
 
 }
 
