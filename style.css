@@ -24,11 +24,12 @@ section.header-page {
 .header-page a {
   font-size: 15px;
   background-color: #f53838;
-  color: white;
+  color: rgb(241, 241, 241);
 }
 
 .header-page a:hover {
   box-shadow: 0 10px 30px rgba(245, 56, 56, 0.4);
+  color: white;
 }
 
 p.bar-summary{
@@ -47,17 +48,57 @@ p.bar-summary-sub{
 .summary .container{
   background-color : white;
   width: 100%;
-  box-shadow: 0 100px 300px rgba(0,0,0,0.1);
+  box-shadow: 0 40px 300px rgba(179, 179, 179, 0.1);
   border-radius: 10px;
+}
+
+section.plan {
+  background: #F6F6F6;
+}
+
+.icon-plan{
+  color: #2fab73;
+  margin-right: 15px;
+}
+
+.card-plan{
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+  height: 760px;
+}
+
+.card-active {
+  border: 2px solid #F53838;
+}
+
+div.plan-price{
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+
+.plan-button{
+  border: 2px solid #F53838;
+  width: 178px;
+  font-weight: 500;
+}
+
+.card-body .container p{
+  font-size: 14px;
+  color: #4F5665;
 }
 
 
 
 @media only screen and (max-width: 576px) {
     .header-page h2 {
-        font-size: 20px;
+      margin-top: 30px;
+      line-height: 0px;
+        font-size: 35px;
         line-height: 70px;
       }
+
 }
 
 @media only screen and (min-width: 577px) {
