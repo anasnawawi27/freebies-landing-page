@@ -1,13 +1,73 @@
 body {
-    background-color: #FFFFFF;
-    font-family: "Rubik";
+  background-color: #ffffff;
+  font-family: "Rubik";
 }
 
 section.header-page {
-    margin-top: 100px;;
+  margin-top: 70px;
 }
 
 .header-page h2 {
-    font-size: 50px;
-    line-height: 70px;
+  font-size: 50px;
+  line-height: 70px;
+}
+
+.header-page p {
+  color: #4f5665;
+  line-height: 30px;
+}
+
+.header-page span {
+  font-weight: 500;
+}
+
+.header-page a {
+  font-size: 15px;
+  background-color: #f53838;
+  color: white;
+}
+
+.header-page a:hover {
+  box-shadow: 0 10px 30px rgba(245, 56, 56, 0.4);
+}
+
+p.bar-summary{
+    font-size: 25px;
+    font-weight: bold;
+   padding: 0;
+   margin: 0;
+}
+
+p.bar-summary-sub{
+    padding: 0;
+    margin: 0;
+}
+
+
+.summary .container{
+  background-color : white;
+  width: 100%;
+  box-shadow: 0 100px 300px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .header-page h2 {
+        font-size: 20px;
+        line-height: 70px;
+      }
+}
+
+@media only screen and (min-width: 577px) {
+}
+
+@media only screen and (min-width: 769px) {
+}
+
+@media only screen and (min-width: 993px) {
+}
+
+@media only screen and (min-width: 1200px) {
 }
