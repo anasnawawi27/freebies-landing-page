@@ -21,14 +21,14 @@ section.header-page {
   font-weight: 500;
 }
 
-.header-page a {
+.header-page a, .subscribe a{
   font-size: 15px;
   background-color: #f53838;
   color: rgb(241, 241, 241);
 }
 
-.header-page a:hover, .plan-button:hover{
-  box-shadow: 0 10px 30px rgba(245, 56, 56, 0.4);
+.header-page a:hover, .plan-button:hover, .subscribe a:hover{
+  box-shadow: 0 10px 30px rgba(243, 95, 95, 0.2);
   color: white;
 }
 
@@ -67,6 +67,11 @@ section.plan {
   height: 760px;
 }
 
+.card-plan, .card-testimoni{
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+}
+
 .card-active {
   border: 2px solid #F53838;
 }
@@ -88,8 +93,64 @@ div.plan-price{
   font-size: 14px;
   color: #4F5665;
 }
+.owl-dots{
+  margin-top: 30px;
+  text-align: right;
+  width: 150px!important;
+  float: left;
+}
+.owl-dots button.owl-dot span {
+  background-color: #DDE0E4!important;
+  width: 15px;
+  height: 15px;
+}
 
+.owl-dots button.owl-dot.active span {
+  width: 35px;
+  background-color: #F53838!important;
+}
 
+div.owl-nav{
+  float: right;
+  width: 150px!important;
+}
+
+.img-testimoni{
+  height: 50px!important;
+  width: 50px!important;
+}
+
+.card-testimoni{
+  height: 230px;
+}
+
+button.owl-prev {
+  width: 50px!important;
+  height: 50px!important;
+  background: transparent!important;
+  border: 2px solid #F53838!important;
+  border-radius: 100px!important;
+  color: #F53838!important;
+  font-size: 30px!important;
+}
+
+button.owl-next {
+  width: 50px!important;
+  height: 50px!important;
+  background: #F53838!important;
+  border-radius: 100px!important;
+  color: white!important;
+  font-size: 30px!important;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #F8F8F8;
+  padding-top: 200px;
+}
 
 @media only screen and (max-width: 576px) {
     .header-page h2 {
@@ -107,9 +168,40 @@ div.plan-price{
       text-align: center;
     }
 
+    div.icon-summary{
+      visibility: hidden;
+    }
+
 }
 
+.subscribe .container{
+  background-color: white;
+  box-shadow: 0 20px 100px rgba(87, 87, 87, 0.1);
+  transform: translateY(150px);
+  border-radius: 10px;
+}
+
+.icon-footer:hover{
+  box-shadow: 0 15px 30px rgba(31, 31, 31, 0.1);
+}
+
+footer li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+footer ul li a{
+  text-decoration: none;
+  color: #4F5665;
+}
+
+.global-network h6{
+  margin-top: 10px;
+}
+
+
+
 @media only screen and (min-width: 577px) {
+ 
 }
 
 @media only screen and (min-width: 769px) {
