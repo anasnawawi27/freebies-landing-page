@@ -25,10 +25,11 @@ section.header-page {
   font-size: 15px;
   background-color: #f53838;
   color: rgb(241, 241, 241);
+  /* transition: color 0.1ms; */
 }
 
 .header-page a:hover, .plan-button:hover, .subscribe a:hover{
-  box-shadow: 0 10px 30px rgba(243, 95, 95, 0.2);
+  box-shadow: 0 10px 30px rgba(255, 50, 50, 0.2);
   color: white;
 }
 
@@ -169,6 +170,10 @@ button.owl-next {
     }
 
     div.icon-summary{
+      visibility: hidden;
+    }
+
+    .owl-dots{
       visibility: hidden;
     }
 
